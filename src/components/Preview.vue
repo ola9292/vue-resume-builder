@@ -43,7 +43,7 @@ const downloadPDF = () => {
 <template>
     <div id="resume-preview">
         <div class="about">
-            <h1 class="name text-center" style="margin-bottom: 10px;">{{ aboutData.name }}</h1>
+            <h1 class="name text-center" style="margin-bottom: 10px; color:green">{{ aboutData.name }}</h1>
             <div class="details">
                 <p class="detail capitalize">{{ aboutData.role }}</p>
                 <p class="detail">{{ aboutData.email }}</p>
